@@ -110,7 +110,6 @@ body{
         background-size: contain;
         min-height: 100vh;
         min-width: 100%;
-        overflow: hidden;
     }
 
     .logo img{
