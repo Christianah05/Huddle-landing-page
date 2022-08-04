@@ -109,7 +109,8 @@ body{
         background-repeat: no-repeat;
         background-size: contain;
         min-height: 100vh;
-        min-width: 100vw;
+        min-width: 100%;
+        overflow: hidden;
     }
 
     .logo img{
@@ -149,7 +150,7 @@ body{
     }
     .register{
         margin-left: 10px;
-        margin-bottom: -15px;
+        margin-bottom: -10px;
     }
 
     .register a{
