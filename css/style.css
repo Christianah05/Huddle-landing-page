@@ -108,9 +108,8 @@ body{
         background-color: var(--violet);
         background-repeat: no-repeat;
         background-size: contain;
-        overflow: hidden;
         min-height: 100vh;
-        min-width: 100%;
+        min-width: 100vw;
     }
 
     .logo img{
@@ -163,6 +162,6 @@ body{
     }
 
     .attribution{
-        margin-top: 35px;
+        margin-top: 40px;
     }
 }
