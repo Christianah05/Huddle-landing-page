@@ -110,10 +110,11 @@ body{
         background-size: contain;
         min-height: 100vh;
         min-width: 100%;
+        overflow: auto;
     }
 
     .logo img{
-        margin-bottom: 30px;
+        margin-bottom: 45px;
         width: 50%;
     }
 
@@ -123,7 +124,8 @@ body{
     }
 
     .mockup img{
-        width: 85vw;
+        width: 80vw;
+        margin-right: 15px;
     }
 
     .content{
@@ -136,32 +138,34 @@ body{
         margin-top: 0;
         width: 330px;
         font-size: 25px;
-        line-height: 1.1cm;
+        line-height: 1cm;
         text-align: center;
     }
 
     .content p{
         width: 350px;
         text-align: center;
-        font-size: 18.5px;
-        line-height: 0.7cm;
-        margin-bottom: 35px;
+        font-size: 18.3px;
+        line-height: 0.65cm;
+        margin-bottom: 30px;
     }
     .register{
         margin-left: 10px;
-        margin-bottom: -10px;
     }
 
     .register a{
         font-size: 15px;
-        padding: 10px 60px;
+        padding: 8px 60px;
     }
     
     .fa-brands{
         left: 28%;
+        margin-top: 40px;
+        font-size: 13px;
+        padding-buttom: 1.3em;
     }
 
     .attribution{
-        margin-top: 40px;
+        margin-top: 55px;
     }
 }
